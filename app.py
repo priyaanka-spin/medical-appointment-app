@@ -23,7 +23,7 @@ init_db()
 @app.route("/")
 def home():
     return """
-    <h1>Medical Appointment Booking</h1>
+    <h1>Medical Appointment Booking - Version 2</h1>
 
     <form action="/book" method="post">
       Name:<br>
